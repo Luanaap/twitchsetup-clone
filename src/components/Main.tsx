@@ -21,7 +21,7 @@ const Main = () => {
         },
       },
     );
-    setData(response.data.streams);
+    //setData(response.data.streams);
   }
 
   if (!data) {
