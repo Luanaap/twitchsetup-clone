@@ -1,34 +1,93 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+<p align="center">
+  <a href="http://https://github.com/Luanaap/twitchsetup-clone">
+  <a href="https://github.com/Luanaap/twitchsetup-clone/network">
+  <a href="https://github.com/Luanaap">
+</p>
 
-## Getting Started
+# Twitch Setup Clone
 
-First, run the development server:
+Fiz esse clone como um desafio de codificação para me juntar à [SuperSim](https://www.supersim.com.br/)equipe.
 
-```bash
-npm run dev
-# or
-yarn dev
-```
+## O Desafio
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+O desafio consiste em fazer um clone de algum site de seu interesse. Sua estrutura deverá conter pelo menos duas páginas, uma lista(tabela, ou cards, ou o que preferir) populada dinamicamente e um formulário;
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+Confira a versão ao vivo aqui:
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+Confira o desafio aqui:
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+## Recursos
 
-## Learn More
+### Primeira Página
 
-To learn more about Next.js, take a look at the following resources:
+Criei a parte principal do site e é totalmente responsivo a dispositivos móveis.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+<p align="center">
+    <img  max-width="768" src="https://i.imgur.com/tbDfTvZ.png">
+  </p>
+<br />
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+### Componente de canais recomendados
+O `<VideoGroup data={[]}/>` componente é totalmente reutilizável, ele apenas pega uma matriz de dados da API oficial da Twitch e embaralha os resultados (algum tipo de "algoritmo" de canais recomendados)
 
-## Deploy on Vercel
+ <p align="center">
+    <img  max-width="768" src="https://i.imgur.com/mpvTCuY.png">
+  </p>
+<br />
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+### Componente Botão
+O `<Button buttonType={'primary'|'secondary'}>Text Inside</Button>` componente recebe uma propriedade buttonType que pode ser usada como 'primária' ou 'secundária', o texto dentro dele será exibido como o texto do botão.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+  <p align="center">
+    <img  max-width="768" src="https://i.imgur.com/mhWLZAm.png">
+  </p>
+<br />
+
+### Pontuação de desempenho farol
+
+
+  <p align="center">
+    <img  max-width="768" src="https://i.imgur.com/0bpjPLk.png">
+  </p>
+
+
+  ### Construido com:
+- [x] Next.JS
+- [x] Typescript
+- [x] Axios
+- [x] Styled-Components
+- [x] TwitchAPI
+- [x] Deployed to Vercel
+
+## Isenção de responsabilidade
+Este projeto não é de forma alguma afiliado à Twitch Interactive, Inc. Amazon.com, Provi ou qualquer empresa mencionada nesta página.
+
+## Execute isso Localmente.
+Para executar este projeto localmente, você precisará do Node.js instalado.
+
+Clone esse repositório usando `https://github.com/Luanaap/twitchsetup-clone.git`
+
+Vá para o diretório do seu projeto `cd twitchsetup-clone`
+
+Instale dependências de preferência com, `yarn`, mas você também pode usar o `npm install`
+
+Crie um arquivo .env na raiz da pasta com base em .env.example.
+
+Execute seu aplicativo NEXTJS com `yarn dev` ou `npm run dev`
+
+Acesse `localhost:300` e confira esse clone incrível
+
+## Infos da dev
+- Linkedin - [LuanaAndradePereira](https://www.linkedin.com/in/luanaapereira/)
+- Discord - [Luanapr#0362](https://discord.com/)
+
+
+
+
+
+
+
+
+
+
+
