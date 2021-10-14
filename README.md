@@ -12,7 +12,7 @@ Fiz esse clone como um desafio de codificação para me juntar à [SuperSim](htt
 
 O desafio consiste em fazer um clone de algum site de seu interesse. Sua estrutura deverá conter pelo menos duas páginas, uma lista(tabela, ou cards, ou o que preferir) populada dinamicamente e um formulário;
 
-Confira a versão ao vivo aqui: [TwitchSetupClone](twitchsetup-clone.vercel.app)
+Confira a versão ao vivo aqui: [TwitchSetupClone](https://twitchsetup-clone.vercel.app/)
 
 Confira o desafio aqui: [SuperSim](https://s3.amazonaws.com/gupy5/production/companies/1954/emails/1633634448387/a3311c60-27a3-11ec-bd06-2bc019f57abd/supersim_-_jnior_-_front_end.pdf)
 
