@@ -17,24 +17,24 @@ const Header: React.FC = () => {
         <img src="/favicon.svg" alt="Twitch Clone" width="32" height="32" />
         <ul>
           <li>
-            <a href="#">Browse</a>
+            <a href="#">Procurar</a>
           </li>
           <li>...</li>
         </ul>
       </LeftMenu>
       <MiddleMenu>
         <div>
-          <input id="search" type="text" placeholder="Search" />
+          <input id="search" type="text" placeholder="Buscar" />
           <label aria-label="search" htmlFor="search">
-            Search
+            Buscar
           </label>
           <FaSearch size={16} />
         </div>
       </MiddleMenu>
       <RightMenu>
         <CgCrown size={24} />
-        <Button buttonType="secondary">Log In</Button>
-        <Button buttonType="primary">Sign Up</Button>
+        <Button buttonType="secondary">Entrar</Button>
+        <Button buttonType="primary">Cadastrar-se</Button>
         <BsPerson size={24} color="#fafafa" />
       </RightMenu>
     </Container>

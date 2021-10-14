@@ -52,7 +52,7 @@ export default class MyDocument extends Document {
           <link rel="icon" href="/favicon.svg" />
           <meta
               name="keywords"
-              content="twitch, vídeo online, streams ao vivo, live, streamers, livestreamers, livestram, canais, esports "
+              content="twitch, vídeo online, streams ao vivo, ao vivo, streamers, livestreamers, livestram, canais, esports "
           />
 
           <meta name="theme-color" content="#6441A4" />

@@ -11,7 +11,7 @@ export interface DataProps {
   channel: {
     status: string;
     logo: string;
-    display_name: string;
+    rafaballerinii: string;
     url: string;
   };
   preview: {
@@ -26,22 +26,22 @@ function shuffleArray(arr: DataProps[]) {
 
 const VideoGroup: React.FC<VideoGroupProps> = ({ data }) => {
   if (!data) {
-    return <h1>Loading Twitch Clone...</h1>;
+    return <h1>Carregando Twitch Setup Clone...</h1>;
   }
 
   const shuffledData = shuffleArray(data).slice(0, 4);
 
   return (
     <Container>
-      <strong>Recommended channels</strong>
+      <strong>Canais Recomendados</strong>
       <div className="videos">
         {shuffledData &&
           shuffledData.map((stream) => (
             <VideoSingle
               key={stream._id}
               title={stream.channel.status}
-              channel={stream.channel.display_name}
-              tags={['English']}
+              channel={stream.channel.rafaballerinii}
+              tags={['Português']}
               avatar={stream.channel.logo.replace('300x300', '50x50')}
               preview={stream.preview.medium}
               viewers={stream.viewers}

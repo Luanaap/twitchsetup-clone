@@ -16,19 +16,19 @@ const Main = () => {
       )}`,
       {
         headers: {
-          Accept: 'application/vnd.twitchtv.v5+json',
-          'Client-Id': 'l4ulgpuzjl21kfkklj0k7aycw7ho72o', // this is a "public" client-id, i always hide my private keys in a .env file
+           Accept: 'application/vnd.twitchtv.v5+json',
+          'Client-Id': 'l4ulgpuzjl21kfkklj0k7aycw7ho72o',
         },
       },
     );
-    // setData(response.data.streams);
+    setData(response.data.streams);
   }
 
   if (!data) {
     return (
       <Container>
         <div className="loading-container">
-          <h1>Twitch Clone</h1>
+          <h1>Twitch Setup Clone</h1>
           <div className="loading"></div>
         </div>
       </Container>
