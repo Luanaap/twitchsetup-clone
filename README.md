@@ -6,7 +6,7 @@
 
 # Twitch Setup Clone
 
-Fiz esse clone como um desafio de codificação para me juntar à [SuperSim](https://www.supersim.com.br/)equipe.
+Fiz esse clone como um desafio de codificação para me juntar à [SuperSim](https://www.supersim.com.br/) equipe.
 
 ## O Desafio
 
